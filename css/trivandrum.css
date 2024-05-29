@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home {
+    text-align: center; /* Center align the content */
+}
+
+#home h1 {
+    color: #4E9F3D; /* Set text color to #4E9F3D */
+    padding-top: 50PX;
+}
+
+#about{
+    padding-top: 50px;
+}
+
+#ponmudi
+{
+    padding-top: 50px;
+}
+
+
+#home2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #4E9F3D;
+
+}
+
+#ponmudi {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+#ponmudi .image {
+    flex: 1; /* Let the image take 1 part of the available space */
+    max-width: 50%; /* Limit image width to 50% of the container */
+    padding: 20px; /* Add some padding */
+}
+
+#ponmudi .content {
+    flex: 1; /* Let the content take 1 part of the available space */
+    max-width: 50%; /* Limit content width to 50% of the container */
+    padding: 20px; /* Add some padding */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    #ponmudi {
+        flex-direction: column; /* Change to vertical layout on smaller screens */
+    }
+    #ponmudi .image,
+    #ponmudi .content {
+        max-width: 100%; /* Allow image and content to take full width on smaller screens */
+    }
+}
+
+#Padmanabhaswamy{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center;
+}
+#Padmanabhaswamy.image {
+    flex: 1; /* Let the image take 1 part of the available space */
+    max-width: 50%; /* Limit image width to 50% of the container */
+    padding: 20px; /* Add some padding */
+}
+
+#Padmanabhaswamy.content {
+    flex: 1; /* Let the content take 1 part of the available space */
+    max-width: 50%; /* Limit content width to 50% of the container */
+    
+    padding-right: 50px;
+}
+@media screen and (max-width: 768px) {
+    #Padmanabhaswamy {
+        flex-direction: column; /* Change to vertical layout on smaller screens */
+    }
+    #Padmanabhaswamy .image,
+    #Padmanabhaswamy .content {
+        max-width: 100%; /* Allow image and content to take full width on smaller screens */
+    }
+}
+
+#footer
+{
+    padding-top: 50px;
+    
+
+}
+
+.center-text {
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}

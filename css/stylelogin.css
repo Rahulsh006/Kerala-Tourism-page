@@ -1,0 +1,15 @@
+
+
+
+
+
+.card .btn-primary {
+    background-color: #4E9F3D; /* Green color */
+    border-color: #4E9F3D; /* Green color */
+}
+
+.card .btn-primary:hover {
+    color: rgb(25, 25, 25); 
+    background-color: rgb(199, 254, 198); /* Change background color on hover */
+    border-color: rgb(199, 254, 198); /* Change border color on hover */
+}
